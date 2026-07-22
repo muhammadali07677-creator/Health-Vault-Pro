@@ -146,4 +146,14 @@ Contributions are welcome! Feel free to open an Issue or submit a Pull Request.
 
 ## 📜 License
 
-Distributed under the **MIT License**. See `LICENSE` for more information.
+Distributed under the **MIT License**. See [LICENSE](file:///d:/the-icat-2-fnal/version%202.0/HealthVault/LICENSE) for more information.
+
+---
+
+## 🚨 Medical Disclaimer
+
+**HealthVault Pro is for educational, personal health tracking, and demonstration purposes only.** It is not a licensed medical device and does not provide clinical diagnostic or treatment decisions.
+
+- **AI Recommendations**: Features utilizing Google Gemini AI (lab report extraction, drug interaction checks, diagnostic suggestions) are for informational assistance only and may produce inaccurate or incomplete outputs.
+- **Consult Professionals**: Always consult a qualified healthcare provider for medical advice, diagnoses, or treatment plans.
+
