@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Hanken+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-primary:        #ff5540;
+  --color-primary-hover:  #e6442f;
+  --color-primary-glow:   rgba(255, 85, 64, 0.35);
+  --color-primary-subtle: rgba(255, 85, 64, 0.08);
+
+  --color-bg:             #ffffff;
+  --color-surface:        #f8f8f8;
+  --color-surface-card:   #ffffff;
+  --color-border:         rgba(0, 0, 0, 0.07);
+  --color-border-hover:   rgba(255, 85, 64, 0.25);
+
+  --color-text-main:      #000000;
+  --color-text-muted:     rgba(0, 0, 0, 0.75);
+  --color-text-faint:     rgba(0, 0, 0, 0.55);
+}
+
+/* ── Base ──────────────────────────────────────────────── */
+:root {
+  font-family: 'Hanken Grotesk', system-ui, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: #ffffff;
+}
+
+/* ── Typography roles ─────────────────────────────────── */
+h1, h2, h3, h4, h5, h6, .font-display {
+  font-family: 'Syne', sans-serif;
+}
+
+/* JetBrains Mono for labels, tags, small caps */
+.font-mono-label {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* ── Glass / Surface cards ────────────────────────────── */
+.glass-card {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 24px -6px rgba(0, 0, 0, 0.06);
+  transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease,
+    transform 0.3s ease;
+  will-change: transform, box-shadow;
+}
+
+.glass-card:hover {
+  border-color: rgba(255, 85, 64, 0.25);
+  box-shadow: 0 12px 40px -10px rgba(255, 85, 64, 0.08);
+}
+
+/* ── Buttons ──────────────────────────────────────────── */
+.pill-btn {
+  border-radius: 9999px;
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+.v1-btn-primary {
+  background: #ff5540;
+  color: #ffffff;
+  border: 1px solid #ff5540;
+  box-shadow: 0 4px 20px rgba(255, 85, 64, 0.28);
+}
+
+.v1-btn-primary:hover {
+  background: #e6442f;
+  transform: translateY(-1px) scale(1.02);
+  box-shadow: 0 6px 28px rgba(255, 85, 64, 0.4);
+}
+
+.v1-btn-primary:active {
+  transform: translateY(0) scale(1);
+}
+
+.v1-btn-outline {
+  background: transparent;
+  color: #131313;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.v1-btn-outline:hover {
+  border-color: #131313;
+  background: rgba(0, 0, 0, 0.03);
+}
+
+/* ── Inputs ───────────────────────────────────────────── */
+.v1-input {
+  background: #f5f5f5;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #000000;
+  font-weight: 500;
+  transition: all 0.25s ease;
+  border-radius: 9999px;
+}
+
+.v1-input::placeholder,
+::placeholder {
+  color: rgba(0, 0, 0, 0.65) !important;
+  opacity: 1 !important;
+}
+
+.v1-input:focus {
+  outline: none;
+  border-color: #ff5540;
+  background: #fff;
+  box-shadow: 0 0 0 4px rgba(255, 85, 64, 0.1);
+}
+
+/* ── EKG animation ────────────────────────────────────── */
+.ekg-line {
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  animation: ekg-draw 4s linear infinite;
+}
+
+@keyframes ekg-draw {
+  0%   { stroke-dashoffset: 2000; opacity: 0.3; }
+  20%  { opacity: 0.8; }
+  80%  { opacity: 0.8; }
+  100% { stroke-dashoffset: 0;    opacity: 0.3; }
+}
+
+/* ── Heart glow pulse ─────────────────────────────────── */
+@keyframes heart-glow {
+  0%, 100% {
+    filter: drop-shadow(0 0 10px rgba(255, 85, 64, 0.3));
+    transform: scale(1);
+  }
+  50% {
+    filter: drop-shadow(0 0 28px rgba(255, 85, 64, 0.65));
+    transform: scale(1.06);
+  }
+}
+
+.animate-heart-glow {
+  animation: heart-glow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* ── Float ────────────────────────────────────────────── */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-8px); }
+}
+
+.animate-float {
+  animation: float 5s ease-in-out infinite;
+}
+
+/* ── Scrollbar ────────────────────────────────────────── */
+::-webkit-scrollbar        { width: 8px; }
+::-webkit-scrollbar-track  { background: #f0f0f0; }
+::-webkit-scrollbar-thumb  { background: rgba(0,0,0,0.15); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(255,85,64,0.4); }
+
+/* ── Background mesh (subtle) ─────────────────────────── */
+.mesh-bg {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: #ffffff;
+  background-image:
+    radial-gradient(at 80% 10%, rgba(255, 85, 64, 0.04) 0%, transparent 55%),
+    radial-gradient(at 0%  90%, rgba(255, 85, 64, 0.03) 0%, transparent 55%);
+  pointer-events: none;
+}

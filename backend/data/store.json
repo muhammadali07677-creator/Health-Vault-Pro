@@ -1,0 +1,459 @@
+{
+  "patients": {
+    "37405-82178681": {
+      "cnic": "37405-82178681",
+      "name": "Muhammad Ali 01",
+      "password": "aeiou786",
+      "age": "20",
+      "gender": "Male",
+      "phone": "031111111111",
+      "role": "patient",
+      "medicalHistory": [
+        {
+          "id": "62964caa-2c5c-4ab2-83d4-2e32ecd7cd7b",
+          "diseaseId": "ca5c8a46-f100-46e2-98b9-7ead2909bd36",
+          "disease": "Jaundice",
+          "diagnosis": "Jaundice",
+          "treatment": "abs reveal total bilirubin 8.2 mg/dL (direct 6.5 mg/dL), elevated transaminases (AST 245 U/L, ALT 198 U/L), and normal ALP; abdominal ultrasound shows no biliary dilatation—consistent with acute hepatitis, likely viral etiology pending serologic confirmation.\r\nPlan:\r\nInitiate supportive care with hydration and rest; obtain viral hepatitis serology (HAV, HBV, HCV); repeat LFTs in 3-5 days; counsel on alcohol avoidance and close follow-up; consider hepatology referral if bilirubin does not improve or encephalopathy develops.",
+          "doctorName": "Ali-1",
+          "hospitalName": "Nutech -1 ",
+          "visitDate": "2026-06-02",
+          "date": "2026-06-02T16:55:47.354Z",
+          "medicines": [
+            {
+              "name": "Jaundice",
+              "dosage": "1",
+              "duration": "12",
+              "timing": [
+                "MORNING",
+                "EVENING"
+              ]
+            }
+          ],
+          "prescribedTests": [],
+          "reportName": "lft test",
+          "reportDate": "2026-06-02",
+          "prescriptionAttachment": null,
+          "reportAttachment": "/uploads/testReportFile-1780419347316.pdf"
+        },
+        {
+          "id": "c8bc34fd-5d29-4444-a44f-994f821a4117",
+          "diseaseId": "ca5c8a46-f100-46e2-98b9-7ead2909bd36",
+          "disease": "Jaundice (6/2/2026)",
+          "diagnosis": "Jaundice (6/2/2026)",
+          "treatment": "Assessment:\r\nTotal bilirubin 4.5 mg/dL (indirect 3.8 mg/dL), normal liver enzymes; reticulocyte count elevated at 8.2%—hemolytic anemia confirmed; direct antiglobulin test positive; consistent with autoimmune hemolytic anemia.\r\nPlan:\r\nStart prednisolone 1mg/kg daily; transfuse if Hgb drops below 7 g/dL; repeat CBC and reticulocyte count in 1 week; monitor for complications; refer to hematology if no response in 2 weeks.",
+          "doctorName": "Ali-2",
+          "hospitalName": "Nutech - 2",
+          "visitDate": "2026-06-02",
+          "date": "2026-06-02T16:59:54.543Z",
+          "medicines": [
+            {
+              "name": "Hypamarz",
+              "dosage": "2",
+              "duration": "20",
+              "timing": [
+                "AFTERNOON",
+                "NIGHT"
+              ]
+            },
+            {
+              "name": "Brufen",
+              "dosage": "1",
+              "duration": "12",
+              "timing": [
+                "MORNING",
+                "NIGHT",
+                "EVENING"
+              ]
+            }
+          ],
+          "prescribedTests": [],
+          "reportName": "Lft ",
+          "reportDate": "2025-12-29",
+          "prescriptionAttachment": null,
+          "reportAttachment": "/uploads/testReportFile-1780419594503.pdf"
+        },
+        {
+          "id": "243033b4-5ed0-49af-8f87-522c6cdc1d05",
+          "diseaseId": "c091d56a-c0aa-4526-9e40-2e91c92d2586",
+          "disease": "Cyanosis",
+          "diagnosis": "Cyanosis",
+          "treatment": "Assessment:\r\nSpO2 85% on room air, chest X-ray shows decreased pulmonary vascularity and right heart enlargement; echocardiogram confirms tetralogy of Fallot with right-to-left shunt—chronic cyanotic heart disease.\r\nPlan:\r\nRefer for pediatric cardiology evaluation and surgical correction; avoid dehydration; iron supplementation for secondary polycythemia; educate parents on activity restriction; schedule follow-up echo in 3 months.",
+          "doctorName": "Hamza 1",
+          "hospitalName": "Hospital - 1",
+          "visitDate": "2026-06-02",
+          "date": "2026-06-02T17:14:07.874Z",
+          "medicines": [
+            {
+              "name": "Ceftriaxone",
+              "dosage": "2",
+              "duration": "20",
+              "timing": [
+                "AFTERNOON",
+                "NIGHT"
+              ]
+            }
+          ],
+          "prescribedTests": [],
+          "reportName": "",
+          "reportDate": "",
+          "prescriptionAttachment": null,
+          "reportAttachment": null
+        },
+        {
+          "id": "c420574f-6600-46b8-997c-67e92530f133",
+          "diseaseId": "c091d56a-c0aa-4526-9e40-2e91c92d2586",
+          "disease": "Cyanosis (6/2/2026)",
+          "diagnosis": "Cyanosis (6/2/2026)",
+          "treatment": "Assessment:\r\nChest X-ray reveals left lower lobe consolidation; WBC 14,500; blood cultures pending—acute bacterial pneumonia with hypoxemia causing cyanosis.\r\nPlan:\r\nStart oxygen supplementation (target SpO2 >94%), IV ceftriaxone and azithromycin; chest physiotherapy; repeat CXR in 48 hours; monitor vitals closely; admit for observation if SpO2 does not improve.",
+          "doctorName": "hamza - 2",
+          "hospitalName": "hospital - 2",
+          "visitDate": "2026-06-02",
+          "date": "2026-06-02T17:15:27.699Z",
+          "medicines": [
+            {
+              "name": "Iron Supplements ",
+              "dosage": "2",
+              "duration": "30",
+              "timing": [
+                "MORNING",
+                "EVENING"
+              ]
+            },
+            {
+              "name": "Ceftriaxone",
+              "dosage": "2",
+              "duration": "30",
+              "timing": [
+                "MORNING",
+                "AFTERNOON",
+                "NIGHT"
+              ]
+            }
+          ],
+          "prescribedTests": [],
+          "reportName": "",
+          "reportDate": "",
+          "prescriptionAttachment": null,
+          "reportAttachment": null
+        },
+        {
+          "id": "0ed338fc-78cb-4b33-9aea-1d04c498a5ce",
+          "diseaseId": "20db90d8-e2f4-4b39-9344-0499086ea8fc",
+          "disease": "Chest Infection",
+          "diagnosis": "Chest Infection",
+          "treatment": "Swear chest infection, coughs, and headache.  \r\nNabelize with medication 2 times a day.\r\nDrink warm water and avoid oily foods.\r\n",
+          "doctorName": "Laiba",
+          "hospitalName": "House 101",
+          "visitDate": "2026-06-06",
+          "date": "2026-06-06T13:53:32.306Z",
+          "medicines": [
+            {
+              "name": "Acifyle",
+              "dosage": "2",
+              "duration": " 14",
+              "timing": [
+                "MORNING",
+                "EVENING"
+              ]
+            },
+            {
+              "name": "Coughcol",
+              "dosage": "2",
+              "duration": "14",
+              "timing": [
+                "AFTERNOON"
+              ]
+            }
+          ],
+          "prescribedTests": [],
+          "reportName": "",
+          "reportDate": "",
+          "prescriptionAttachment": "/uploads/prescriptionFile-1780754012297.pdf",
+          "reportAttachment": null
+        },
+        {
+          "id": "785c9500-6c4b-4c94-bda6-e659a1382b6b",
+          "diseaseId": "978a5478-708e-4a0c-a2a0-12358c2e53ce",
+          "disease": "Test 101",
+          "diagnosis": "Test 101",
+          "treatment": "testing records",
+          "doctorName": "extra",
+          "hospitalName": "MCH",
+          "visitDate": "2026-06-06",
+          "date": "2026-06-06T13:57:35.558Z",
+          "medicines": [
+            {
+              "name": "Amlodipine",
+              "dosage": "5 mg",
+              "duration": "",
+              "timing": []
+            }
+          ],
+          "prescribedTests": [],
+          "reportName": "",
+          "reportDate": "",
+          "prescriptionAttachment": "/uploads/prescriptionFile-1780754255550.pdf",
+          "reportAttachment": null
+        }
+      ],
+      "testReports": [
+        {
+          "id": "9f2cfe89-d9c5-40d2-ae11-48072be2e3ba",
+          "fileName": "LFT-REPORT-BAD-1_converted.pdf",
+          "filePath": "/uploads/testReportFile-1780419347316.pdf",
+          "uploadDate": "2026-06-02T00:00:00.000Z",
+          "referringDoctor": "Ali-1",
+          "diseaseCause": "lft test"
+        },
+        {
+          "id": "aa9e63f7-29b1-4acd-8035-f108ba1acd83",
+          "fileName": "LFT-REPORT-BETTER-1_converted.pdf",
+          "filePath": "/uploads/testReportFile-1780419594503.pdf",
+          "uploadDate": "2025-12-29T00:00:00.000Z",
+          "referringDoctor": "Ali-2",
+          "diseaseCause": "Lft "
+        },
+        {
+          "id": "f5aa8927-bccd-4cdf-858d-d2d0cf4d6bbf",
+          "fileName": "Coulombs-law-image-charge.pdf",
+          "filePath": "/uploads/file-1780754394150.pdf",
+          "uploadDate": "2026-06-06T13:59:54.168Z",
+          "referringDoctor": "Self",
+          "diseaseCause": "Unnamed_Clinical_Report"
+        }
+      ],
+      "createdAt": "2026-06-02T16:53:15.697Z",
+      "diseaseNodes": [
+        {
+          "id": "ca5c8a46-f100-46e2-98b9-7ead2909bd36",
+          "disease": "Jaundice",
+          "createdAt": "2026-06-02T16:55:47.347Z"
+        },
+        {
+          "id": "c091d56a-c0aa-4526-9e40-2e91c92d2586",
+          "disease": "Cyanosis",
+          "createdAt": "2026-06-02T17:14:07.869Z"
+        },
+        {
+          "id": "20db90d8-e2f4-4b39-9344-0499086ea8fc",
+          "disease": "Chest Infection",
+          "createdAt": "2026-06-06T13:53:32.305Z"
+        },
+        {
+          "id": "978a5478-708e-4a0c-a2a0-12358c2e53ce",
+          "disease": "Test 101",
+          "createdAt": "2026-06-06T13:57:35.557Z"
+        }
+      ]
+    },
+    "37405-82178682": {
+      "cnic": "37405-82178682",
+      "name": "Hamza 02",
+      "password": "aeiou786",
+      "age": "21",
+      "gender": "Male",
+      "phone": "0322222222",
+      "role": "patient",
+      "medicalHistory": [],
+      "testReports": [],
+      "createdAt": "2026-06-02T17:54:20.931Z"
+    },
+    "300000000000": {
+      "cnic": "300000000000",
+      "name": "ak",
+      "password": "Test1234",
+      "age": "-2",
+      "gender": "Male",
+      "phone": "0300000000",
+      "role": "patient",
+      "medicalHistory": [],
+      "testReports": [],
+      "createdAt": "2026-06-04T10:49:01.695Z"
+    },
+    "3740587082207": {
+      "cnic": "3740587082207",
+      "name": "Ali Rustam",
+      "password": "tmkc3bar",
+      "age": "20",
+      "gender": "Male",
+      "phone": "03338178180",
+      "role": "patient",
+      "medicalHistory": [
+        {
+          "id": "77c0bc4f-41f1-43f6-9b2f-5808daa344c8",
+          "diseaseId": "609bcc94-5567-40f2-be2b-7eb768cb0e05",
+          "disease": "Bukhar",
+          "diagnosis": "Bukhar",
+          "treatment": "Notes",
+          "doctorName": "Haseeb",
+          "hospitalName": "ICICI",
+          "visitDate": "2026-06-06",
+          "date": "2026-06-06T10:21:44.556Z",
+          "medicines": [
+            {
+              "name": "chars",
+              "dosage": "1",
+              "duration": "3",
+              "timing": [
+                "MORNING"
+              ]
+            }
+          ],
+          "prescribedTests": [],
+          "reportName": "Pregnancy Test 3",
+          "reportDate": "",
+          "prescriptionAttachment": null,
+          "reportAttachment": null
+        }
+      ],
+      "testReports": [],
+      "createdAt": "2026-06-06T10:19:16.931Z",
+      "diseaseNodes": [
+        {
+          "id": "609bcc94-5567-40f2-be2b-7eb768cb0e05",
+          "disease": "Bukhar",
+          "createdAt": "2026-06-06T10:21:44.556Z"
+        }
+      ]
+    },
+    "37405-8217868-02": {
+      "cnic": "37405-8217868-02",
+      "name": "Muhammad Ali 002",
+      "password": "aeiou786",
+      "age": "28",
+      "gender": "Male",
+      "phone": "03115768876",
+      "role": "patient",
+      "medicalHistory": [
+        {
+          "id": "a2713d3e-bffa-4e0f-b060-349c217d12d7",
+          "diseaseId": "b0a72726-d090-459b-9068-9da83e4abc7e",
+          "disease": "Jaundice",
+          "diagnosis": "Jaundice",
+          "treatment": "hahhahaha",
+          "doctorName": "oppo",
+          "hospitalName": "opop",
+          "visitDate": "2026-06-06",
+          "date": "2026-06-06T14:34:41.935Z",
+          "medicines": [],
+          "prescribedTests": [],
+          "reportName": "LFT-REPORT-BAD-1",
+          "reportDate": "22030-12-12",
+          "prescriptionAttachment": null,
+          "reportAttachment": "/uploads/testReportFile-1780756481912.pdf"
+        }
+      ],
+      "testReports": [
+        {
+          "id": "daa17b51-78de-49bb-b7d0-92ca79360cd3",
+          "fileName": "LFT-REPORT-BETTER-1.pdf",
+          "filePath": "/uploads/file-1780756274863.pdf",
+          "uploadDate": "2026-06-06T14:31:14.866Z",
+          "referringDoctor": "Self",
+          "diseaseCause": "Unnamed_Clinical_Report"
+        },
+        {
+          "id": "6e1b4ff8-a0aa-4f80-b801-cfe46f4d380c",
+          "fileName": "LFT-REPORT-BAD-1_converted.pdf",
+          "filePath": "/uploads/testReportFile-1780756481912.pdf",
+          "uploadDate": "+022030-12-11T19:00:00.000Z",
+          "referringDoctor": "oppo",
+          "diseaseCause": "LFT-REPORT-BAD-1"
+        }
+      ],
+      "createdAt": "2026-06-06T14:13:19.338Z",
+      "diseaseNodes": [
+        {
+          "id": "b0a72726-d090-459b-9068-9da83e4abc7e",
+          "disease": "Jaundice",
+          "createdAt": "2026-06-06T14:34:41.926Z"
+        }
+      ]
+    },
+    "3740582178681": {
+      "cnic": "3740582178681",
+      "name": "Ali ",
+      "password": "nust123",
+      "age": "29",
+      "gender": "Male",
+      "phone": "03115768876",
+      "role": "patient",
+      "medicalHistory": [],
+      "testReports": [],
+      "createdAt": "2026-07-18T13:10:40.511Z"
+    }
+  },
+  "reviews": [
+    {
+      "id": "44764f91-52e8-4c3d-9b78-3a471412c107",
+      "doctorName": "Dr Ali",
+      "speciality": "Cardiology",
+      "hospital": "Hospital 1 ",
+      "rating": 3,
+      "remarks": "Good medication, but attitude and approach is not good.",
+      "patientName": "Muhammad Ali 01",
+      "date": "2026-06-02T17:23:37.498Z"
+    },
+    {
+      "id": "c8d296f6-ac5b-4fd1-8a89-16651bc2b4f0",
+      "doctorName": "DR Ali",
+      "speciality": "Cardiology",
+      "hospital": "Hospital 1",
+      "rating": 5,
+      "remarks": "Greate doctors, his medication worked great for my father. Recommended1",
+      "patientName": "Muhammad Ali 01",
+      "date": "2026-06-02T17:24:35.938Z"
+    },
+    {
+      "id": "46de6926-6a45-4c15-a76e-282d7d77596c",
+      "doctorName": "Dr Laiba",
+      "speciality": "Neurology",
+      "hospital": "CMH",
+      "rating": 4,
+      "remarks": "Her mediations and treatment for memory loss,  worked well for my mother.",
+      "patientName": "Muhammad Ali 01",
+      "date": "2026-06-02T17:25:34.205Z"
+    },
+    {
+      "id": "08783f4e-dbe3-4bde-938c-38a222401c0d",
+      "doctorName": "Dr Laibe",
+      "speciality": "Neurology",
+      "hospital": "CML",
+      "rating": 2,
+      "remarks": "Though her medications are top notch, her treatment takes a lot of time to show results.",
+      "patientName": "Muhammad Ali 01",
+      "date": "2026-06-02T17:26:18.568Z"
+    },
+    {
+      "id": "737affab-ab3f-4b5a-b3f2-2fbd71902906",
+      "doctorName": "Dr Laiba",
+      "speciality": "Neurology",
+      "hospital": "CMH",
+      "rating": 2,
+      "remarks": "Though her medications are top notch, her treatment takes a lot of time to show results.",
+      "patientName": "Muhammad Ali 01",
+      "date": "2026-06-02T17:26:52.328Z"
+    },
+    {
+      "id": "126e62d5-b1f9-4fd3-bc6c-26828f3514ae",
+      "doctorName": "Dr Ali",
+      "speciality": "Cardiology",
+      "hospital": "Hospital 1",
+      "rating": 3,
+      "remarks": "not so great",
+      "patientName": "Hamza 02",
+      "date": "2026-06-02T17:55:12.218Z"
+    },
+    {
+      "id": "94ef4201-845c-45ce-b44f-d83e69e36025",
+      "doctorName": "Dr Laibe",
+      "speciality": "Neurology",
+      "hospital": "CMH",
+      "rating": 4,
+      "remarks": "Great experience and better recovery rate.",
+      "patientName": "Hamza 02",
+      "date": "2026-06-02T17:55:49.083Z"
+    }
+  ]
+}
